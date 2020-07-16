@@ -1,0 +1,32 @@
+
+<div>
+       
+<h1 class="display-4">Products</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% products.forEach(function(products){ %>
+            <tr>
+
+                <td><%= products.category %></td>
+                <td><%= products.name %></td>
+                <td><%= products.price %></td>
+                <td>
+                    <a href="/products/edit?id=<%= products.id %>" class="btn btn-primary">Edit</a>
+                    <form class="d-inline" action="/products/delete?id=<%= products.id %>" method="post">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>
+
+</div>
