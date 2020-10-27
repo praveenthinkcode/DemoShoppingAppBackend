@@ -34,7 +34,7 @@ module.exports.datastores = {
 
   mongodb: {
     adapter: 'sails-mongo',
-    url: 'mongodb://localhost:27017/products'
+    url: 'mongodb://praveen:30061999Pr@@cluster0-shard-00-00.bc1tu.mongodb.net:27017,cluster0-shard-00-01.bc1tu.mongodb.net:27017,cluster0-shard-00-02.bc1tu.mongodb.net:27017/<dbname>?ssl=true&replicaSet=atlas-12u66e-shard-0&authSource=admin&retryWrites=true&w=majority'
     /***************************************************************************
     *                                                                          *
     * Want to use a different database during development?                     *
