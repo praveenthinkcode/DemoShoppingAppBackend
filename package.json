@@ -21,7 +21,7 @@
     "sails-hook-sockets": "^2.0.0",
     "sails-jwt": "^2.0.3",
     "sails-mongo": "^1.1.0",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "speakeasy": "^2.0.0",
     "twilio": "^3.44.0",
     "xlsx": "^0.15.5"
