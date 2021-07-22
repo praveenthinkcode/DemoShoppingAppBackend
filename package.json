@@ -24,7 +24,7 @@
     "socket.io": "^2.3.0",
     "speakeasy": "^2.0.0",
     "twilio": "^3.44.0",
-    "xlsx": "^0.15.5"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "eslint": "5.16.0"
